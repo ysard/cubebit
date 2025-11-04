@@ -8,13 +8,13 @@
 
 /** User configuration variables **/
 
-#define LED_STRIP_GPIO GPIO_NUM_8   // GPIO connected to the WS2812
-#define LED_STRIP_LED_COUNT 64      // Total number of LEDs
+#define LED_STRIP_GPIO         GPIO_NUM_8 // GPIO connected to the WS2812
+#define LED_STRIP_LED_COUNT    64         // Total number of LEDs
 
 // Set to 1 to use DMA for driving the LED strip, 0 otherwise
 // Please note the RMT DMA feature is only available on chips e.g. ESP32-S3/P4
 // => not on C6
-#define LED_STRIP_USE_DMA  0
+#define LED_STRIP_USE_DMA    0
 
 /** Misc **/
 #define MAX_(a, b)    (((a) > (b)) ? (a) : (b))
