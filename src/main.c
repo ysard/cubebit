@@ -9,7 +9,7 @@
 // Espressif imports
 #include <esp_log.h>
 #include <driver/gpio.h>
-#include <rom/gpio.h>
+#include <rom/gpio.h>  // gpio_output_set
 #include <driver/rmt_tx.h>
 
 #include "led_strip.h"
