@@ -38,6 +38,7 @@ static const char *TAG = "FIRE";
 
 /**
  * @brief Get the color of the selected pixel in the selected strand according to the heat value
+ * @param red_flames Green flames if false, red flames otherwise.
  */
 color_t get_pixel_heat_color(uint8_t strand, int z, uint8_t heat_value, bool red_flames) {
     // ESP_LOGI(TAG, "strand: %d, z: %d, heat: %d", strand, z, heat_value);
