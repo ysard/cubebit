@@ -209,6 +209,7 @@ void test_gpios(void) {
 
     gpio_config(&io_conf);
 
+    // 10 tests, 5 secs each
     bool level = false;
     for (uint8_t i = 0; i < 10; i++) {
         level = !level;
