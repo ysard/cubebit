@@ -5,6 +5,11 @@ controlled by an ESP microcontroller from Espressif.
 ## Demo
 
 <div align="center"><figure>
+    <img src="./assets/base.webp"><br>
+    <figcaption>Base</figcaption>
+</figure></div>
+
+<div align="center"><figure>
     <img src="./assets/rainbow.webp"><br>
     <figcaption>Rainbow</figcaption>
 </figure></div>
