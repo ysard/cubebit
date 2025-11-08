@@ -1,6 +1,6 @@
 Some visual effects for the Cube:bit board from 4tronix.
 It's basically a strip of RGB LEDs (SK6812 aka WS2812 clones)
-controlled by an ESP microcontroller from Espressif.
+controlled by an ESP microcontroller from Espressif (ESP32-C6, but not limited to).
 
 ## Demo
 
@@ -15,7 +15,7 @@ controlled by an ESP microcontroller from Espressif.
 </figure></div>
 
 <div align="center"><figure>
-    <img src="./assets/randomisation.webp"><br>
+    <img src="./assets/random.webp"><br>
     <figcaption>Random</figcaption>
 </figure></div>
 
